@@ -6,9 +6,13 @@ public class L20 {
 
 	public static void main(String[] args) {
 
-		L20 l=new L20();
 
-		System.out.println(l.isValid("(){}}{"));
+		boolean a = Character.isLetter('K');
+
+		System.out.println(a);
+//		L20 l=new L20();
+//
+//		System.out.println(l.isValid("(){}}{"));
 
 	}
 
