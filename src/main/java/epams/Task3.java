@@ -6,7 +6,9 @@ public class Task3 {
 
 		Task3 task3=new Task3();
 
-		task3.isEnglishSymbol(';');
+		// task3.isEnglishSymbol(';');
+
+		task3.isDividableBy5And11(55);
 
 
 	}
@@ -35,6 +37,18 @@ public class Task3 {
 			else if(salary<0){
 				System.out.println("wrong input!");
 			}
+	}
+
+	public void isDividableBy5And11(int number) {
+
+		if(number%55==0){
+			System.out.println("Dividable");
+		}
+		else if(number==0){
+			System.out.println("cannot divide by zero");
+		}else {
+			System.out.println("Non-dividable" );
+		}
 	}
 
 }
