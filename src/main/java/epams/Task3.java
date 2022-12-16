@@ -51,4 +51,11 @@ public class Task3 {
 		}
 	}
 
+	public void vowelDeterminer(char character) {
+		if(Character.isDigit(character)){
+			System.out.println("Digit");
+		}
+
+	}
+
 }
