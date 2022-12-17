@@ -10,6 +10,8 @@ public class Task3 {
 
 		task3.isDividableBy5And11(55);
 
+		task3.calculateSalary(200);
+
 
 	}
 
