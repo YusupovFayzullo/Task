@@ -49,6 +49,7 @@ public class Task3 {
 		}else {
 			System.out.println("Non-dividable" );
 		}
+		System.out.println("Finish");
 	}
 
 	public void vowelDeterminer(char character) {
