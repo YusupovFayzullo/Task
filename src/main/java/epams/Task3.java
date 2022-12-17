@@ -22,6 +22,7 @@ public class Task3 {
 				  System.out.println("Non English");
 			  }
 
+			System.out.println("Finish");
 		}
 
 	public void calculateSalary(int salary) {
