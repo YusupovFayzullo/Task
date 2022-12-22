@@ -4,6 +4,9 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
+		boolean b[]=new boolean[-200];
+
+
 		String fayz = "asaswlhjhjhjhwhljhjwhllkjklw";
 		StringTokenizer stringTokenizer = new StringTokenizer(fayz, "w", false);
 		while (stringTokenizer.hasMoreElements()) {
@@ -47,6 +50,10 @@ public class Main {
 			 result.add(onceLost);
 			 return result;
 		}
+	}
+
+	public final  static void m1(){
+		System.out.println();
 	}
 
 }
