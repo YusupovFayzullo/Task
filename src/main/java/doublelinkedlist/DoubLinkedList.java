@@ -63,6 +63,8 @@ class DoublyLinkedListTest{
 		dll.add(2);
 		dll.add(2);
 
+		System.out.println(11<<2);
+		System.out.println(11>>2);
 
 		System.out.println("dll = " + dll);
 
