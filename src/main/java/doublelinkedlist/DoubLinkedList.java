@@ -1,5 +1,6 @@
 package doublelinkedlist;
 
+import java.io.Console;
 import java.util.StringJoiner;
 
 public class DoubLinkedList<E>{
@@ -62,11 +63,16 @@ class DoublyLinkedListTest{
 		dll.add(2);
 		dll.add(2);
 		dll.add(2);
+//
+//		System.out.println(11<<2);
+//		System.out.println(11>>2);
+//
+//		System.out.println("dll = " + dll);
 
-		System.out.println(11<<2);
-		System.out.println(11>>2);
+		String name="farid";
+		name.concat(" yusupov");
+		System.out.println("name = " + name);
 
-		System.out.println("dll = " + dll);
 
 	}
 }
