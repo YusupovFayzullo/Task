@@ -31,7 +31,10 @@ public class Task1 {
 
 		switch (month){
 			case 12,1,2->{
-				System.out.println("Winter");
+				System.out.println("Winter"); break;
+			}
+			case 3,4,5->{
+				System.out.println("Spring"); break;
 			}
 		}
 
