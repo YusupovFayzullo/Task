@@ -29,6 +29,11 @@ public class Task1 {
 
 	public void tellTheSeasonByMonthNumber(int month) {
 
+		switch (month){
+			case 12,1,2->{
+				System.out.println("Winter");
+			}
+		}
 
 	}
 
