@@ -10,7 +10,7 @@ public class Task4 {
 
 		Properties prop=new Properties();
 		try (var fileReader = new FileReader("src/main/resources/config.properties")) {
-			prop.load(fileReader);
+		//	prop.load(fileReader);
 			System.out.println(prop.getProperty("datasource.database.username","default.username"));
 			System.out.println(prop.getProperty("datasource.database.password","default.password"));
 			System.out.println(prop.getProperty("datasource.database.url","default.url"));
