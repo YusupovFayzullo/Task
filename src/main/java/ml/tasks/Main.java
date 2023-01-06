@@ -7,6 +7,7 @@ public class Main {
 		Scanner scanner=new Scanner(System.in);
 
 		System.out.print("n=");
+		System.out.print("n=");
 		int n=scanner.nextInt();
 
 		if(n<=0){
