@@ -3,9 +3,9 @@ package epams;
 public class Task1 {
 	public static void main(String[] args) {
 
-
+		System.out.println("Hello");
 		Task1 t1 = new Task1();
-	t1.printGreatest(2,4);
+	    t1.printGreatest(2,4);
 		t1.throwCoin(499);
 
 		t1.tellTheSeasonByMonthNumber(5);
