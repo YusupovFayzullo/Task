@@ -11,7 +11,7 @@ public class Task1 {
 		t1.tellTheSeasonByMonthNumber(5);
 
 		t1.tellTheSeasonByMonthNumber(7);
-		System.out.println("Hello");
+
 
 	}
 
