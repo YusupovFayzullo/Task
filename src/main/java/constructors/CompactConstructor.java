@@ -11,6 +11,6 @@ class Test{
 		CompactConstructor compactConstructor=new CompactConstructor("2",12);
 
 		System.out.println("compactConstructor = " + compactConstructor);
-		System.out.println("Hello");
+
 	}
 }
